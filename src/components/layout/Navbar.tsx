@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import profilePic from "../../../public/images/IMG_20260324_121316.jpeg";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ export function Navbar() {
       <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#223649] px-4 md:px-10 py-3 relative z-50 bg-[#101a23]">
         <div className="flex items-center gap-4 text-white">
           <div className="size-10 rounded-full overflow-hidden border-2 border-[#314d68] shadow-sm relative">
-            <Image src="/images/IMG_20260324_121316.jpeg" alt="Profile" fill className="object-cover" />
+            <Image src={profilePic} alt="Profile" fill className="object-cover" />
           </div>
           <h2 className="text-white text-lg font-bold leading-tight tracking-[-0.015em]">P.AM.W.Z</h2>
         </div>
