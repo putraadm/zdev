@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import profilePic from "../../../public/images/IMG_20260324_121316.jpeg";
+import profilePic from "../../../public/images/RAAF2216.png";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
