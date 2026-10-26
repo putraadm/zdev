@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import BannerImage from "../../../public/images/BannerIT.png";
+import BannerImage from "../../../public/images/BannerIT.webp";
 
 export function HeroSection() {
     return (
