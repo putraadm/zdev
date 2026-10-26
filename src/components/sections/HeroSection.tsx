@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import BannerImage from "../../../public/images/BannerIT.png";
 
 export function HeroSection() {
     return (
@@ -11,7 +12,7 @@ export function HeroSection() {
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="@[480px]:p-4"
             >
-                <div className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcaKaMshb7HXeo_8ttJPHiPfjPDN7Zaty3LqrjtEs2rrYD1MFDOJvFWQIIdSGrnTE6davMj1Lb-dqWXcY2JOxf4sGOkLTm1Apm_V9uW3sAF17DrcLEXuM2Dt00s1gzXg64fWVfNBuzJKEkSHN2Bck_3UU9cyHppU5oaKJf2isiAm7FGfUsy8p08HdByZpqqtmNCDvhZrmGfT4i-AlgyR0y95uRk7-_o0x3cFsHrs9gWsFVAm6q0LLheKToG9uX-_mtb4yooJQ6b5U")' }}>
+                <div className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url(${BannerImage.src})` }}>
                     <div className="flex flex-col gap-2 text-left">
                         <motion.h1
                             initial={{ opacity: 0, x: -20 }}
